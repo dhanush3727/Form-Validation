@@ -39,7 +39,7 @@ const Form = () => {
         <label htmlFor="password">Password*</label>
         <br />
         <input
-          type="text"
+          type="password"
           name="password"
           value={formValues.password}
           onChange={handleChange}
@@ -52,7 +52,7 @@ const Form = () => {
         <label htmlFor="cpassword">Confirm Password*</label>
         <br />
         <input
-          type="text"
+          type="password"
           name="confirmpassword"
           value={formValues.confirmpassword}
           onChange={handleChange}
